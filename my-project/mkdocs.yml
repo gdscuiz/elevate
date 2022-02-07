@@ -1,0 +1,18 @@
+site_name: Elevate Events Series
+
+nav:
+    - ElevateEventsSeries: index.md
+    - Policy: Policy.md
+    - Speakers: Speakers.md
+    - Events : 
+           EESApply: eapply.md
+           EESCommunicate : ecommunicate.md
+           EESManage: emanage.md
+           EESThink : ethink.md
+           EESInnovate : einnovate.md
+
+
+
+
+               
+
