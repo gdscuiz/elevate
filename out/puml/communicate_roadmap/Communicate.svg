@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="147px" preserveAspectRatio="none" style="width:412px;height:147px;background:#FFFFFF;" version="1.1" viewBox="0 0 412 147" width="412px" zoomAndPan="magnify"><defs/><g><ellipse cx="58.6007" cy="22.715" rx="52.6007" ry="14.715" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="27.1007" y="26.4626">E: Event</text><ellipse cx="217.6781" cy="22.6356" rx="71.1781" ry="16.6356" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="166.6781" y="26.3832">Communicate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="283.183" x2="265.6415" y1="16.8364" y2="34.378"/><ellipse cx="110.5118" cy="120.4024" rx="95.0118" ry="21.4024" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="34.0118" y="123.249">E1: Personal Branding</text><line style="stroke:#A80036;stroke-width:1.5;" x1="197.9508" x2="175.6201" y1="112.9415" y2="135.2722"/><ellipse cx="323.712" cy="120.4424" rx="82.712" ry="18.9424" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="260.5208" y="123.5215">E2: Personal Skills</text><line style="stroke:#A80036;stroke-width:1.5;" x1="399.8315" x2="379.9738" y1="113.8391" y2="133.6968"/><!--MD5=[eafd6081afc775571d539063ef63995e]
+link E0 to E1--><path d="M200.31,38.92 C183.14,54.33 156.53,78.21 136.72,95.97 " fill="none" id="E0-to-E1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="132.86,99.44,142.2313,96.4104,136.5828,96.1023,136.8909,90.4538,132.86,99.44" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[78140ea141f4238fa3437051705103f0]
+link E0 to E2--><path d="M234.53,38.92 C252.31,55.02 280.3,80.38 300.14,98.34 " fill="none" id="E0-to-E2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="303.99,101.83,300.0126,92.82,300.2871,98.4702,294.6369,98.7447,303.99,101.83" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6eba7378f52f137be7504c2d3b456fd5]
+@startuml "Communicate"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(Communicate)/ as E0 
+(E1: Personal Branding)/ as E1 
+
+(E2: Personal Skills)/ as E2
+
+
+
+E0 - -> E1
+
+E0 - -> E2
+
+
+
+
+
+@endum
+
+PlantUML version 1.2022.0(Tue Jan 11 17:16:42 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

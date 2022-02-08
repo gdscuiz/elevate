@@ -1,0 +1,26 @@
+@startuml "Apply"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(E0: Apply)/ as E0 
+(E1: Version Control with git)/ as E1 
+
+(E2: Github Projects)/ as E2
+(E3: Intro to Trello)/ as E3 
+
+
+E0 --> E1
+
+E0 --> E2
+E0 --> E3
+
+
+
+
+@enduml
+
+
