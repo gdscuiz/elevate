@@ -1,0 +1,23 @@
+@startuml "EESInnovate"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(EES Innovate)/ as E0 
+(E1: Ideathon)/ as E1 
+
+
+
+E0 --> E1
+
+
+
+
+
+
+@enduml
+
+

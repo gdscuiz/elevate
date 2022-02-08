@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="149px" preserveAspectRatio="none" style="width:910px;height:149px;background:#FFFFFF;" version="1.1" viewBox="0 0 910 149" width="910px" zoomAndPan="magnify"><defs/><g><ellipse cx="301.6007" cy="22.215" rx="52.6007" ry="14.715" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="270.1007" y="25.9626">E: Event</text><ellipse cx="456.5233" cy="21.9047" rx="67.5233" ry="15.9047" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="410.5233" y="25.6522">EES Manage</text><line style="stroke:#A80036;stroke-width:1.5;" x1="518.6647" x2="501.8563" y1="16.3603" y2="33.1686"/><ellipse cx="108.7042" cy="120.9408" rx="102.7042" ry="22.9408" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="23.7042" y="123.7875">E1: Project Management</text><line style="stroke:#A80036;stroke-width:1.5;" x1="203.2224" x2="179.3441" y1="112.9437" y2="136.822"/><ellipse cx="342.4095" cy="121.0819" rx="95.9095" ry="21.5819" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="264.9095" y="123.9286">E2: Task Management</text><line style="stroke:#A80036;stroke-width:1.5;" x1="430.6746" x2="408.1634" y1="113.5585" y2="136.0697"/><ellipse cx="570.3591" cy="121.1718" rx="96.3591" ry="21.6718" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="492.3591" y="124.0185">E3: Time Management</text><line style="stroke:#A80036;stroke-width:1.5;" x1="659.038" x2="636.4363" y1="113.617" y2="136.2187"/><ellipse cx="803.3371" cy="121.1674" rx="101.3371" ry="22.6674" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="719.8371" y="124.0141">E4: Agile Methodologies</text><line style="stroke:#A80036;stroke-width:1.5;" x1="896.5971" x2="872.9939" y1="113.2656" y2="136.8687"/><!--MD5=[eafd6081afc775571d539063ef63995e]
+link E0 to E1--><path d="M414.87,34.6 C355.67,51.1 246.52,81.53 175.76,101.25 " fill="none" id="E0-to-E1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="170.73,102.65,180.4738,104.0848,175.5462,101.3066,178.3244,96.379,170.73,102.65" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[78140ea141f4238fa3437051705103f0]
+link E0 to E2--><path d="M439.19,37.73 C420.77,53.4 391.39,78.4 369.85,96.73 " fill="none" id="E0-to-E2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="365.92,100.07,375.3626,97.2704,369.7233,96.8243,370.1694,91.1851,365.92,100.07" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[65f41a577799e7c2373664f4d726a3e9]
+link E0 to E3--><path d="M473.81,37.73 C492.23,53.4 521.61,78.4 543.15,96.73 " fill="none" id="E0-to-E3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="547.08,100.07,542.8306,91.1851,543.2767,96.8243,537.6374,97.2704,547.08,100.07" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e71a76939cfa172f7562cc8285d45297]
+link E0 to E4--><path d="M498.36,34.7 C557.77,51.31 667.14,81.88 737.53,101.56 " fill="none" id="E0-to-E4" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="742.53,102.96,734.9356,96.689,737.7138,101.6166,732.7862,104.3948,742.53,102.96" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[05c26b47359089a28ea86f8d04ce4ee6]
+@startuml "EESManage"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(EES Manage)/ as E0 
+(E1: Project Management)/ as E1 
+
+(E2: Task Management)/ as E2
+(E3: Time Management)/ as E3 
+(E4: Agile Methodologies)/ as E4 
+
+
+E0 - -> E1
+
+E0 - -> E2
+E0 - -> E3
+E0 - -> E4
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 17:16:42 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

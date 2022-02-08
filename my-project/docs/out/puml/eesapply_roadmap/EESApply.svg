@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="150px" preserveAspectRatio="none" style="width:634px;height:150px;background:#FFFFFF;" version="1.1" viewBox="0 0 634 150" width="634px" zoomAndPan="magnify"><defs/><g><ellipse cx="198.1007" cy="21.215" rx="52.6007" ry="14.715" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="166.6007" y="24.9626">E: Event</text><ellipse cx="346.813" cy="20.7771" rx="60.813" ry="14.7771" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="309.813" y="24.5247">EES Apply</text><line style="stroke:#A80036;stroke-width:1.5;" x1="402.779" x2="387.0214" y1="15.6258" y2="31.3834"/><ellipse cx="116.0557" cy="120.4111" rx="110.0557" ry="24.4111" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="23.0557" y="123.2578">E1: Version Control with git</text><line style="stroke:#A80036;stroke-width:1.5;" x1="217.3395" x2="191.9816" y1="111.9014" y2="137.2594"/><ellipse cx="347.1635" cy="120.6327" rx="86.1635" ry="19.6327" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="280.6635" y="123.4794">E2: Github Projects</text><line style="stroke:#A80036;stroke-width:1.5;" x1="426.4595" x2="405.908" y1="113.7887" y2="134.3402"/><ellipse cx="548.1963" cy="120.4393" rx="80.1963" ry="18.4393" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="487.1039" y="123.7979">E3: INtro to Trello</text><line style="stroke:#A80036;stroke-width:1.5;" x1="622.0006" x2="602.6483" y1="114.0113" y2="133.3636"/><!--MD5=[eafd6081afc775571d539063ef63995e]
+link E0 to E1--><path d="M317.74,34.35 C280.77,49.95 216.41,77.12 170.32,96.57 " fill="none" id="E0-to-E1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="165.63,98.55,175.4769,98.744,170.2382,96.6097,172.3725,91.3709,165.63,98.55" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[78140ea141f4238fa3437051705103f0]
+link E0 to E2--><path d="M347,36.39 C347,51.98 347,77.11 347,95.66 " fill="none" id="E0-to-E2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="347,100.7,351,91.7,347,95.7,343,91.7,347,100.7" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[65f41a577799e7c2373664f4d726a3e9]
+link E0 to E3--><path d="M373.28,34.75 C408.25,51.71 470.31,81.82 510.28,101.2 " fill="none" id="E0-to-E3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="515.04,103.51,508.7015,95.9719,510.5452,101.3199,505.1972,103.1636,515.04,103.51" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a1a7867d5f2ff310f3d55184d8ee067c]
+@startuml "EESApply"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(EES Apply)/ as E0 
+(E1: Version Control with git)/ as E1 
+
+(E2: Github Projects)/ as E2
+(E3: INtro to Trello)/ as E3 
+
+
+E0 - -> E1
+
+E0 - -> E2
+E0 - -> E3
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 17:16:42 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
