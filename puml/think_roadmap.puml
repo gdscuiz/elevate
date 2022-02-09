@@ -1,0 +1,29 @@
+@startuml "Think"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(E0: ElevateEventsSeries Init)/ as E0
+(Think)/ as E1 
+
+(E2: Design Thinking)/ as E2
+
+(E3: UX Design)/ as E3
+(E4: Softawre Design)/ as E4
+
+
+E0 --> E1
+
+E1 --> E2
+E1 --> E3
+E1 --> E4
+
+
+
+
+@enduml
+
+

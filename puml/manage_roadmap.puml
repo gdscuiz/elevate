@@ -1,0 +1,28 @@
+@startuml "Manage"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(Manage)/ as E0 
+(E1: Task Management)/ as E1
+(E2: Time Management)/ as E2 
+(E3: Project Management)/ as E3
+(E4: Agile Methodologies)/ as E4 
+
+
+E0 --> E1
+E0 --> E2
+
+
+E1 --> E3
+E3 --> E4
+
+
+
+
+@enduml
+
+

@@ -1,0 +1,27 @@
+@startuml "Communicate"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(Communicate)/ as E0 
+(E1: Personal Branding)/ as E1 
+
+(E2: Personal Skills)/ as E2
+(E3: Resume Writing)/ as E3
+
+
+
+E0 --> E1
+
+E0 --> E2
+E0 --> E3
+
+
+
+
+
+
+@enduml
