@@ -94,7 +94,7 @@ You can find the Events description [here](https://gdscuiz.github.io/elevate/eve
 
 Join us in our first Ideathon where you can brainstorm your ideas and turn them into projects.
 
-You can find the Event description [here](https://gdscuiz.github.io/elevate/events/innovate/), as well as the links of the event.
+You can find the Event description [here](https://gdscuiz.github.io/elevate/events/innovate/), as well as the link of the event.
 
 ![innovate](out/puml/innovate_roadmap/Innovate.svg)
 
