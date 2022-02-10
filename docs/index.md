@@ -65,7 +65,6 @@ Cover all the skills and processes needed to succeed in your project design.
 You can find the Events description [here](https://gdscuiz.github.io/elevate/events/think/), as well as the links of events.
 
 
-![think](out/puml/think_roadmap/Think.svg)
 
 ### #Manage
 
@@ -73,7 +72,6 @@ Cover the basics needed to manage your projects and work in teams.
 
 You can find the Events description [here](https://gdscuiz.github.io/elevate/events/manage/), as well as the links of events.
 
-![manage](out/puml/manage_roadmap/Manage.svg)
 
 ### #Communicate
 

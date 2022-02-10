@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="147px" preserveAspectRatio="none" style="width:612px;height:147px;background:#FFFFFF;" version="1.1" viewBox="0 0 612 147" width="612px" zoomAndPan="magnify"><defs/><g><ellipse cx="155.1007" cy="22.715" rx="52.6007" ry="14.715" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="123.6007" y="26.4626">E: Event</text><ellipse cx="314.1781" cy="22.6356" rx="71.1781" ry="16.6356" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="263.1781" y="26.3832">Communicate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="379.683" x2="362.1415" y1="16.8364" y2="34.378"/><ellipse cx="101.0118" cy="120.4024" rx="95.0118" ry="21.4024" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="24.5118" y="123.249">E1: Personal Branding</text><line style="stroke:#A80036;stroke-width:1.5;" x1="188.4508" x2="166.1201" y1="112.9415" y2="135.2722"/><ellipse cx="314.212" cy="120.4424" rx="82.712" ry="18.9424" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="251.0208" y="123.5215">E2: Personal Skills</text><line style="stroke:#A80036;stroke-width:1.5;" x1="390.3315" x2="370.4738" y1="113.8391" y2="133.6968"/><ellipse cx="518.9744" cy="120.3949" rx="87.4744" ry="19.8949" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="450.9744" y="123.2416">E3: Resume Writing</text><line style="stroke:#A80036;stroke-width:1.5;" x1="599.4767" x2="578.6618" y1="113.4595" y2="134.2745"/><!--MD5=[eafd6081afc775571d539063ef63995e]
+link E0 to E1--><path d="M283.03,37.46 C247.14,53.63 187.69,80.43 146.54,98.98 " fill="none" id="E0-to-E1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="141.86,101.08,151.7087,101.0229,146.4172,99.0228,148.4172,93.7313,141.86,101.08" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[78140ea141f4238fa3437051705103f0]
+link E0 to E2--><path d="M314,39.35 C314,54.8 314,78.46 314,96.07 " fill="none" id="E0-to-E2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="314,101.33,318,92.33,314,96.33,310,92.33,314,101.33" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[65f41a577799e7c2373664f4d726a3e9]
+link E0 to E3--><path d="M344.25,37.67 C379.46,54.15 437.82,81.48 477.31,99.98 " fill="none" id="E0-to-E3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="482.03,102.19,475.5672,94.7582,477.4994,100.0748,472.1828,102.0071,482.03,102.19" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[825fafd6e8f37c058c8404617d6a4ff0]
+@startuml "Communicate"
+
+skinparam usecase {
+BackgroundColor transparent
+shadowing false
+}
+(E: Event)
+
+(Communicate)/ as E0 
+(E1: Personal Branding)/ as E1 
+
+(E2: Personal Skills)/ as E2
+(E3: Resume Writing)/ as E3
+
+
+
+E0 - -> E1
+
+E0 - -> E2
+E0 - -> E3
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 17:16:42 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
