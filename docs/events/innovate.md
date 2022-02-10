@@ -7,7 +7,7 @@
     - [Ideathon](#ideathon)
 
   
-![innovate](out/puml/innovate_roadmap/Innovate.svg)
+![innovate](../out/puml/innovate_roadmap/Innovate.svg)
 
 ## Events
 

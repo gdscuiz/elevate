@@ -4,11 +4,11 @@
 - [#Communicate](#communicate)
   - [Table of Contents](#table-of-contents)
   - [Events](#events)
-    - [Personal Branding](#personalbranding)
-    - [Presentation Skills](#presentationskills)
-    - [Resume Writing](#presentationskills)
+    - [Personal Branding](#personal-branding)
+    - [Presentation Skills](#presentation-skills)
+    - [Resume Writing](#resume-writing)
 
-  ![communicate](out/puml/communicate_roadmap/Communicate.svg)
+  ![communicate](../out/puml/communicate_roadmap/Communicate.svg)
 
 
 ## Events

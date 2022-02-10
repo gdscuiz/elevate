@@ -1,6 +1,6 @@
 # #Elevate
 
-Welcome to the [@GDSCUIZ](https://gdsc.community.dev/university-of-ibn-zohr/), Elevate Events Series.
+Welcome to the [@GDSCUIZ](https://gdsc.community.dev/university-of-ibn-zohr/) #Elevate.
 
 Nowadays, every person has to learn a kit of soft skills. This series of events aims to help attendees to apply their knowledge, communicate, think, manage and innovate, as well as get all the basic tools needed to integrate the tech job market.
 
@@ -28,7 +28,7 @@ You can join our [@GDSCUIZ](https://gdsc.community.dev/university-of-ibn-zohr/) 
 
 ### Prequetise
 
-**None**, just your enthusiasm and your will to learn.
+**None**, just the enthusiasm and a will to learn.
 
 ### Plan
 

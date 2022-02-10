@@ -4,11 +4,12 @@
 - [#Think](#think)
   - [Table of Contents](#table-of-contents)
   - [Events](#events)
-    - [Design Thinking](#designthinking)
-    - [UX Design](#uxdesign)
-    - [Software Design](#softwaredesign)
+    - [Design Thinking](#design-thinking)
+    - [UX Design](#ux-design)
+    - [Software Design](#software-design)
+    - [Design Patterns](#design-patterns)
 
-![think](out/puml/think_roadmap/Think.svg)
+![think](../out/puml/think_roadmap/Think.svg)
 
 
 ## Events
@@ -54,7 +55,13 @@ Goals:
 
 
 ---
+### Design Patterns
 
+Speaker: **#** 
 
+Date: 6/03/2022 
 
+Goals: 
+
+  - Code Best Practices
 

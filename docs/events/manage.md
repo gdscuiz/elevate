@@ -4,12 +4,12 @@
 - [#Manage](#manage)
   - [Table of Contents](#table-of-contents)
   - [Events](#events)
-    - [Project Management](#projectmanagement)
-    - [Task Management](#taskmanagment)
-    - [Time Management](#timemanagement)
-    - [Agile Methodologies](#agilemethodologies)
+    - [Task Management](#task-management)
+    - [Project Management](#project-management)
+    - [Time Management](#time-management)
+    - [Agile Methodologies](#agile-methodologies)
 
-![manage](out/puml/manage_roadmap/Manage.svg)
+![manage](../out/puml/manage_roadmap/Manage.svg)
 
 ## Events
 
