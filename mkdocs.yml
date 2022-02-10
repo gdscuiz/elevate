@@ -1,18 +1,7 @@
 site_name: Elevate
-
-nav:
-    - Elevate: index.md
-    - Policy: Policy.md
-    - Speakers: Speakers.md
-    - Events : 
-           Apply: apply.md
-           Communicate : communicate.md
-           Manage: manage.md
-           Think : think.md
-           Innovate : innovate.md
-
-
-
+site_url: https://gdscuiz.github.io/elevate/
+site_description: GDSCUIZ Elevate
+site_author: Mariam El Katmour
 
                
 

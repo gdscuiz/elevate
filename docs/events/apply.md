@@ -1,14 +1,14 @@
 # #Apply
 
 ## Table of Contents
-- [#Apply](#Apply)
+- [#Apply](#apply)
   - [Table of Contents](#table-of-contents)
   - [Events](#events)
-    - [Version Control with Git](#versioncontrolwithgit)
-    - [Github Projects](#githubprojects)
-    - [intro to Trello](#trello)
+    - [Version Control with Git](#version-control-with-git)
+    - [Intro to Github](#intro-to-github)
+    - [Intro to Trello](#intro-to-trello)
 
-![apply](out/puml/apply_roadmap/Apply.svg)
+![apply](../out/puml/apply_roadmap/Apply.svg)
 
 ## Events
 ### Version Control with Git 
@@ -23,7 +23,7 @@ Goals:
   - learn Version control with Git.
 
 ---
-### Github Projects
+### Intro to Github
 
 
 Speaker: **#** 
@@ -36,7 +36,7 @@ Goals:
 
 ---
 
-### intro to Trello
+### Intro to Trello
 
 
 Speaker: **#** 
